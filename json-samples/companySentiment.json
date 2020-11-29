@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "buzz": {
+      "type": "object",
+      "properties": {
+        "articlesInLastWeek": {
+          "type": "integer"
+        },
+        "buzz": {
+          "type": "integer"
+        },
+        "weeklyAverage": {
+          "type": "number"
+        }
+      },
+      "required": ["articlesInLastWeek", "buzz", "weeklyAverage"]
+    },
+    "companyNewsScore": {
+      "type": "number"
+    },
+    "sectorAverageBullishPercent": {
+      "type": "number"
+    },
+    "sectorAverageNewsScore": {
+      "type": "number"
+    },
+    "sentiment": {
+      "type": "object",
+      "properties": {
+        "bearishPercent": {
+          "type": "number"
+        },
+        "bullishPercent": {
+          "type": "number"
+        }
+      },
+      "required": ["bearishPercent", "bullishPercent"]
+    },
+    "symbol": {
+      "type": "string"
+    }
+  },
+  "required": []
+}

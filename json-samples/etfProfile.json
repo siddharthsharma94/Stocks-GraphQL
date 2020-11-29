@@ -1,0 +1,154 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "profile": {
+      "type": "object",
+      "properties": {
+        "assetsUnderManagement": {
+          "type": "string"
+        },
+        "averageDailyVolume": {
+          "type": "string"
+        },
+        "averageSpread": {
+          "type": "string"
+        },
+        "avgDailyShareVolume": {
+          "type": "integer"
+        },
+        "brand": {
+          "type": "string"
+        },
+        "capitalGainsDistributions3Year": {
+          "type": ["string", "null"]
+        },
+        "creationUnitCost": {
+          "type": "integer"
+        },
+        "creationUnitDay45DayAverage": {
+          "type": "number"
+        },
+        "creationUnitSizeShares": {
+          "type": "integer"
+        },
+        "description": {
+          "type": "string"
+        },
+        "distributesK1": {
+          "type": "string"
+        },
+        "distributionYield": {
+          "type": "number"
+        },
+        "etfcomImpliedLiquidity": {
+          "type": "integer"
+        },
+        "etnCounterparty": {
+          "type": ["string", "null"]
+        },
+        "etnCounterpartyRisk": {
+          "type": ["string", "null"]
+        },
+        "expenseRatio": {
+          "type": "number"
+        },
+        "fundClosureRisk": {
+          "type": "string"
+        },
+        "impedimenttoCreations": {
+          "type": ["string", "null"]
+        },
+        "inceptionDate": {
+          "type": "string"
+        },
+        "indexSelectionMethodology": {
+          "type": "string"
+        },
+        "indexTracked": {
+          "type": "string"
+        },
+        "indexWeightingMethodology": {
+          "type": "string"
+        },
+        "issuer": {
+          "type": "string"
+        },
+        "legalStructure": {
+          "type": "string"
+        },
+        "marketHoursOverlap": {
+          "type": "integer"
+        },
+        "maxDownsideDeviation12Mo": {
+          "type": "number"
+        },
+        "maxLTSTCapitalGainsRate": {
+          "type": "string"
+        },
+        "maxPremiumDiscount12Mo": {
+          "type": "string"
+        },
+        "maxUpsideDeviation12Mo": {
+          "type": "number"
+        },
+        "medianDailyShareVolume": {
+          "type": "integer"
+        },
+        "medianDailyVolume": {
+          "type": "string"
+        },
+        "medianPremiumDiscount12Mo": {
+          "type": "integer"
+        },
+        "medianTrackingDifference12Mo": {
+          "type": "number"
+        },
+        "netAssetValueYesterday": {
+          "type": "string"
+        },
+        "nextExDividendDate": {
+          "type": "string"
+        },
+        "numberofHoldings": {
+          "type": "integer"
+        },
+        "openInterestonETFOptions": {
+          "type": "integer"
+        },
+        "otcDerivativeUse": {
+          "type": "string"
+        },
+        "portfolioDisclosure": {
+          "type": "string"
+        },
+        "priceBookRatio": {
+          "type": "number"
+        },
+        "priceEarningsRatio": {
+          "type": "number"
+        },
+        "securitiesLendingActive": {
+          "type": "string"
+        },
+        "securitiesLendingSplitFundIssuer": {
+          "type": "string"
+        },
+        "taxonDistributions": {
+          "type": "string"
+        },
+        "underlyingVolumeUnit": {
+          "type": "number"
+        },
+        "weightedAverageMarketCap": {
+          "type": "string"
+        }
+      },
+      "required": []
+    },
+    "symbol": {
+      "type": "string"
+    }
+  },
+  "required": ["profile", "symbol"]
+}

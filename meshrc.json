@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "name": "Stock API",
+      "handler": {
+        "jsonSchema": {
+          "baseUrl": "https://www.alphavantage.co",
+          "operations": [
+            {
+              "field": "searchStocksByTicker",
+              "path": "/query?function=SYMBOL_SEARCH&keywords={args.searchQuery}&apikey=R53L4WV6XQ6KQUNO",
+              "type": "Query",
+              "method": "GET",
+              "responseSchema": "./json-samples/jsonSchemaResponse.json"
+            },
+            {
+              "field": "getStockByTicker",
+              "path": "query?function=GLOBAL_QUOTE&symbol={args.ticker}&apikey=R53L4WV6XQ6KQUNO",
+              "type": "Query",
+              "method": "GET",
+              "responseSchema": "./json-samples/jsonResponseSchemaIndividualStock.json"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

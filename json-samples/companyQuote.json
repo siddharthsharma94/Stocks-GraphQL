@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "c": {
+      "type": "number"
+    },
+    "h": {
+      "type": "number"
+    },
+    "l": {
+      "type": "number"
+    },
+    "o": {
+      "type": "number"
+    },
+    "pc": {
+      "type": "number"
+    },
+    "t": {
+      "type": "integer"
+    }
+  },
+  "required": []
+}
