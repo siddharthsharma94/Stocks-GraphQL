@@ -2,4 +2,4 @@
 
 GraphQL Stocks API
 
-[Try API Now &rarr; ](https://graphql-mesh-stocks.vercel.app/api/graphql)
+[Try API Now &rarr; ](https://stocks.thesiddd.com/api/graphql)
