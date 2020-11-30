@@ -1,7 +1,6 @@
 const { parseConfig } = require("@graphql-mesh/config");
 const { getMesh } = require("@graphql-mesh/runtime");
 const path = require("path");
-const meshConfig = require("../meshrc.json");
 const { ApolloServer } = require("apollo-server-micro");
 import "@graphql-mesh/json-schema";
 import "@graphql-mesh/transform-rename";
